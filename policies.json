@@ -50,8 +50,8 @@
        "Locked": true
     },
      "DisableSecurityBypass": {
-       "InvalidCertificate": false,
-       "SafeBrowsing": false
+       "InvalidCertificate": true,
+       "SafeBrowsing": true
     },
      "DNSOverHTTPS": {
        "Enabled":  false
