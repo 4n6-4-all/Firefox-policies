@@ -89,8 +89,6 @@ user_pref("privacy.cpd.offlineApps", true);
 user_pref("privacy.cpd.openWindows", true);
 user_pref("privacy.cpd.passwords", true);
 user_pref("privacy.donottrackheader.enabled", true);
-user_pref("privacy.globalprivacycontrol.enabled", true);
-user_pref("privacy.globalprivacycontrol.was_ever_enabled", true);
 user_pref("privacy.sanitize.timeSpan", 0);
 user_pref("webgl.disabled", true);
 user_pref("webgl.disable-wgl", true);
