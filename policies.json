@@ -35,8 +35,7 @@
         "SuspectedFingerprinting": true,
         "Category": "strict",
         "BaselineExceptions": false,
-        "ConvenienceExceptions": false,
-        "PrivateBrowsing": true
+        "ConvenienceExceptions": false
       },
      "StartDownloadsInTempDirectory": true,
      "TranslateEnabled": false,
