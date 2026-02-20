@@ -190,7 +190,7 @@
                 },
                  {
                     "Name": "DuckDuckGo fuck AI",
-                    "Description": "Adds DuckDuckGo HTML as a search engine for a non-JavaScript experience",
+                    "Description": "We give the finger to AI",
                     "Alias": "@fai",
                     "Method": "POST",
                     "URLTemplate": "https://noai.duckduckgo.com/?q={searchTerms}",
