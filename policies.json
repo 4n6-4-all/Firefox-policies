@@ -1,0 +1,204 @@
+{
+    "__COMMENT__ More Information": "https://github.com/mozilla/policy-templates/blob/master/README.md",
+    "policies": {
+        "AppUpdateURL": "https://localhost",
+        "DisableAppUpdate": true,
+        "AutofillAddressEnabled": false,
+        "AutofillCreditCardEnabled": false,
+        "CaptivePortal": false,
+        "DisableFormHistory": true,
+        "DisableDeveloperTools": false,
+        "OverrideFirstRunPage": "",
+        "DisablePrivateBrowsing": false,
+        "OverridePostUpdatePage": "",
+        "DisableSystemAddonUpdate": true,
+        "DisableProfileImport": false,
+        "DisableFirefoxStudies": true,
+        "DisableTelemetry": true,
+        "DisableFeedbackCommands": true,
+        "DisablePocket": true,
+        "DisableSetDesktopBackground": false,
+        "NoDefaultBookmarks": true,
+        "HttpsOnlyMode": "force_enabled",
+        "SSLVersionMin": "tls1.2",
+        "PromptForDownloadLocation": true,
+        "RequestedLocales": "en-US",
+        "SkipTermsOfUse": true,
+        "PrivateBrowsing": true,
+        "DisablePrivateBrowsing": false,
+        "EnableTrackingProtection": {
+        "Value": true,
+        "Locked": false,
+        "Cryptomining": true,
+        "Fingerprinting": true,
+        "EmailTracking": true,
+        "SuspectedFingerprinting": true,
+        "Category": "strict",
+        "BaselineExceptions": false,
+        "ConvenienceExceptions": false,
+        "PrivateBrowsing": true
+      },
+     "StartDownloadsInTempDirectory": true,
+     "TranslateEnabled": false,
+     "UserMessaging": {
+       "ExtensionRecommendations": false,
+       "FeatureRecommendations": false,
+       "UrlbarInterventions": false,
+       "SkipOnboarding": true,
+       "MoreFromMozilla": false,
+       "FirefoxLabs": false,
+       "Locked": true
+    },
+     "DisableSecurityBypass": {
+       "InvalidCertificate": false,
+       "SafeBrowsing": false
+    },
+     "DNSOverHTTPS": {
+       "Enabled":  false
+    },
+     "EncryptedMediaExtensions": {
+       "Enabled": false,
+       "Locked": true
+    },
+     "Permissions": {
+      "Camera": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Microphone": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Location": {
+        "BlockNewRequests": true,
+        "Locked": true
+      },
+      "Notifications": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Autoplay": {
+        "Default": "block-audio-video",
+        "Locked": false
+      },
+      "VirtualReality": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "ScreenShare": {
+        "BlockNewRequests": true,
+        "Locked": false
+      }
+    },
+     "PopupBlocking": {
+      "Default": true,
+      "Locked": true
+    },
+     "FirefoxHome": {
+        "TopSites": false,
+        "SponsoredTopSites": false,
+        "Highlights": false,
+        "Pocket": false,
+        "Stories": false,
+        "SponsoredPocket": false,
+        "SponsoredStories": false,
+        "Snippets": false,
+        "Locked": true
+     },
+     "FirefoxSuggest": {
+       "WebSuggestions": false,
+       "SponsoredSuggestions": false,
+       "ImproveSuggest": false,
+       "Locked": true
+     },
+     "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "FormData": true,
+      "History": true,
+      "Sessions": true,
+      "SiteSettings": false,
+      "Locked": true
+     },
+     "GenerativeAI": {
+       "Enabled": false,
+       "Chatbot": false,
+       "LinkPreviews": false,
+       "TabGroups": false,
+       "Locked": false
+     },
+     "Homepage": {
+       "URL": "chrome://browser/content/blanktab.html",
+       "Locked": false,
+       "StartPage": "none"
+     },
+        "WebsiteFilter": {
+            "Block": [
+                "https://localhost/*"
+            ],
+            "Exceptions": [
+                "https://localhost/*"
+            ]
+        },
+        "ExtensionSettings": {
+            "uBlock0@raymondhill.net": {
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi",
+                "installation_mode": "normal_installed",
+                "private_browsing": true
+            },
+            "google@search.mozilla.org": {
+                "installation_mode": "blocked"
+            },
+            "bing@search.mozilla.org": {
+                "installation_mode": "blocked"
+            },
+            "amazondotcom@search.mozilla.org": {
+                "installation_mode": "blocked"
+            },
+            "ebay@search.mozilla.org": {
+                "installation_mode": "blocked"
+            },
+            "twitter@search.mozilla.org": {
+                "installation_mode": "blocked"
+            },
+            "wikipedia@search.mozilla.org": {
+                "installation_mode": "blocked"
+            }
+        },
+        "SearchEngines": {
+            "PreventInstalls": true,
+            "Remove": [
+                "Google",
+                "Bing",
+                "Amazon.com",
+                "eBay",
+                "Twitter",
+                "Perplexity",
+                "Wikipedia"
+            ],
+            "Default": "DuckDuckGo HTML Search",
+            "Add": [
+                {
+                    "Name": "DuckDuckGo HTML Search",
+                    "Description": "Adds DuckDuckGo HTML as a search engine for a non-JavaScript experience",
+                    "Alias": "@ddgh",
+                    "Method": "POST",
+                    "URLTemplate": "https://html.duckduckgo.com/html/?q={searchTerms}",
+                    "PostData": "q={searchTerms}",
+                    "SuggestURLTemplate": "https://ac.duckduckgo.com/ac/?q={searchTerms}&type=list",
+                    "IconURL": "data:image/x-icon;base64,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"
+                },
+                 {
+                    "Name": "DuckDuckGo fuck AI",
+                    "Description": "Adds DuckDuckGo HTML as a search engine for a non-JavaScript experience",
+                    "Alias": "@fai",
+                    "Method": "POST",
+                    "URLTemplate": "https://noai.duckduckgo.com/?q={searchTerms}",
+                    "PostData": "q={searchTerms}",
+                    "SuggestURLTemplate": "https://ac.duckduckgo.com/ac/?q={searchTerms}&type=list",
+                    "IconURL": "data:image/x-icon;base64,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"
+                 }
+            ]
+        }   
+     }    
+ }
