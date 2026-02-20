@@ -24,7 +24,7 @@
         "PromptForDownloadLocation": true,
         "RequestedLocales": "en-US",
         "SkipTermsOfUse": true,
-        "PrivateBrowsing": true,
+        "PrivateBrowsingModeAvailability": 2,
         "DisablePrivateBrowsing": false,
         "EnableTrackingProtection": {
         "Value": true,
