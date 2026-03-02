@@ -38,27 +38,27 @@
         "ConvenienceExceptions": false
       },
      "UserMessaging": {
-       "ExtensionRecommendations": false,
-       "FeatureRecommendations": false,
-       "UrlbarInterventions": false,
-       "SkipOnboarding": true,
-       "MoreFromMozilla": false,
-       "FirefoxLabs": false,
-       "Locked": true
+        "ExtensionRecommendations": false,
+        "FeatureRecommendations": false,
+        "UrlbarInterventions": false,
+        "SkipOnboarding": true,
+        "MoreFromMozilla": false,
+        "FirefoxLabs": false,
+        "Locked": true
     },
      "DisableSecurityBypass": {
-       "InvalidCertificate": false,
-       "SafeBrowsing": false
+        "InvalidCertificate": false,
+        "SafeBrowsing": false
     },
      "DNSOverHTTPS": {
-       "Enabled":  false
+        "Enabled":  false
     },
      "EncryptedMediaExtensions": {
-       "Enabled": false,
-       "Locked": true
+        "Enabled": false,
+        "Locked": true
     },
      "Permissions": {
-      "Camera": {
+        "Camera": {
         "BlockNewRequests": true,
         "Locked": false
       },
@@ -108,7 +108,7 @@
        "ImproveSuggest": false,
        "Locked": true
      },
-     "SanitizeOnShutdown": {
+    "SanitizeOnShutdown": {
       "Cache": true,
       "Cookies": true,
       "FormData": true,
