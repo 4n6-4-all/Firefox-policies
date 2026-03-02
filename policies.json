@@ -9,7 +9,6 @@
         "DisableFormHistory": true,
         "DisableDeveloperTools": false,
         "OverrideFirstRunPage": "",
-        "DisablePrivateBrowsing": false,
         "OverridePostUpdatePage": "",
         "DisableSystemAddonUpdate": true,
         "DisableProfileImport": false,
@@ -25,7 +24,6 @@
         "RequestedLocales": "en-US",
         "SkipTermsOfUse": true,
         "PrivateBrowsingModeAvailability": 2,
-        "DisablePrivateBrowsing": false,
         "EnableTrackingProtection": {
         "Value": true,
         "Locked": false,
@@ -49,8 +47,8 @@
        "Locked": true
     },
      "DisableSecurityBypass": {
-       "InvalidCertificate": true,
-       "SafeBrowsing": true
+       "InvalidCertificate": false,
+       "SafeBrowsing": false
     },
      "DNSOverHTTPS": {
        "Enabled":  false
