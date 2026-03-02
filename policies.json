@@ -24,7 +24,9 @@
         "RequestedLocales": "en-US",
         "SkipTermsOfUse": true,
         "PrivateBrowsingModeAvailability": 2,
-        "EnableTrackingProtection": {
+        "StartDownloadsInTempDirectory": true,
+        "TranslateEnabled": false,
+    "EnableTrackingProtection": {
         "Value": true,
         "Locked": false,
         "Cryptomining": true,
@@ -35,8 +37,6 @@
         "BaselineExceptions": false,
         "ConvenienceExceptions": false
       },
-     "StartDownloadsInTempDirectory": true,
-     "TranslateEnabled": false,
      "UserMessaging": {
        "ExtensionRecommendations": false,
        "FeatureRecommendations": false,
